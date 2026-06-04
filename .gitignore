@@ -1,0 +1,6 @@
+# Never commit credentials
+.env
+*.key
+*.pem
+credentials.json
+~/.config/basecamp/

@@ -1,0 +1,28 @@
+{
+  "enabledPlugins": {
+    "basecamp@37signals": true
+  },
+  "extraKnownMarketplaces": {
+    "37signals": {
+      "source": {
+        "source": "github",
+        "repo": "basecamp/claude-plugins"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(basecamp doctor *)",
+      "Bash(basecamp todos list *)",
+      "Bash(basecamp todos update *)",
+      "Bash(basecamp projects list *)",
+      "Bash(basecamp projects show *)",
+      "Bash(basecamp auth status *)",
+      "Bash(basecamp auth token *)",
+      "Bash(basecamp messages create *)",
+      "Bash(basecamp messages list *)",
+      "Bash(basecamp search *)",
+      "Bash(source ~/.bashrc)"
+    ]
+  }
+}
